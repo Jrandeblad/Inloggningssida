@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#background {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+
+}
+
+#loginText {
+        z-index: 1;
+}
+
+#background::before {
+    content: "";
+    background-image: url('images/fjarilssim.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    opacity: 0.85;
+}
+#header {
+    width: 100vw;
+    height: 5vh;
+    z-index: 1;
+    display:none;
+    background: white;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    justify-content: flex-end;
+    border-bottom: 1px solid black;
+}
+#logIn {
+    width: 28%;
+    height: 500px;
+    background: white;
+    color: black;
+    z-index:1;
+    justify-content: center;
+    align-items: center;
+    display:none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    opacity: 0.95;
+}
+
+#felLogIn {
+    width: 28%;
+    height: 500px;
+    background: white;
+    color: black;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    opacity: 0.95;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    border: none;
+    background-color: rgba(211, 211, 211, 0.263);
+    width: 80%;
+    height: 10%;
+    padding-left: 10px;
+}
+
+button {
+    border: none;
+    background-color: aliceblue;
+    width: 80%;
+    height: 10%;
+    cursor: pointer;
+}
+
+#logOutButton {
+    width: 5%;
+    height: 60%;
+    margin-top: 1vh;
+    margin-right: 1vw;
+    border: 1px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+p {
+    color: grey;
+}
+
+h2 {
+    align-self: center;
+    flex-grow: 1;
+    margin-left: 1rem;
+}
+
+#litenText {
+    font-size: x-small;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1rem;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
