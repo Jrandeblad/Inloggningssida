@@ -63,7 +63,7 @@
     height: 500px;
     background: white;
     color: black;
-    z-index: 1.1;
+    z-index: 1;
     justify-content: center;
     align-items: center;
     display: flex;
