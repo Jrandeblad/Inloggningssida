@@ -7,6 +7,8 @@ function redanInloggad() {
         loggaIn();
     }    else {
         document.getElementById("felLogIn").style.display = "none";
+        document.getElementById("logIn").style.display = "flex";
+
     }
 
 }
