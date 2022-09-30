@@ -4,23 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simhallen - Inloggningssida</title>
+    <title>Simsällskapet - Inloggningssida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="background">
+    <!-- Main -->
+    <div id="main">
+      <!-- header -->
       <div id="header">
-        <h2 id="simhallen">Simhallens hemsida</h2>
+        <h2 id="welcomeMessage">Simsällskapets hemsida</h2>
         <button id="logOutButton">Logga ut</button>
       </div>
-      <div id="felLogIn">
+      <!-- Om fel lösenord -->
+      <div class="logInDiv" id="tryAgain">
         <h1>Hoppsan, fel användarnamn/lösenord!</h1>
         <br />
         <br />
-        <button id="forsokIgenButton">Försök igen</button>
+        <button id="tryAgainButton">Försök igen</button>
       </div>
-      <div><p id="loginText"></p></div>
-      <div id="logIn">
+      <!-- inloggning -->
+      <div class="logInDiv" id="logIn">
         <h1>Logga in</h1>
         <br />
         <br />
@@ -39,7 +42,7 @@
         <br />
         <br />
         <p><a href="index.html">Glömt lösenord?</a></p>
-        <p id="litenText">
+        <p id="smallText">
           Regler: What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
           printing and typesetting industry. Lorem Ipsum has been the industry's
           standard dummy text ever since the 1500s, when an unknown printer took
