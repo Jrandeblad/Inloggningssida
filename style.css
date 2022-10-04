@@ -1,15 +1,15 @@
-/* resettar alla paddings och marginaler och inkluderar margin+padding i storleken på ett element*/
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-/* resettar alla inställningar för länkar och lägger till att pekaren ska vara en pointer över dem */
+
 a {
     all: unset;
     cursor: pointer;
 }
-/* grundinställningar för våra knappar */
+
 button {
     background-color: aliceblue;
     border: none;
@@ -17,7 +17,7 @@ button {
     height: 10%;
     width: 80%;
 }
-/* egna inställningar för logout-knappen */
+
 #logOutButton {
     border-radius: 10px;
     border: 1px solid grey;
@@ -36,7 +36,7 @@ h2 {
     flex-grow: 1;
     margin-left: 1rem;
 }
-/* input formulären */
+
 input {
     background-color: rgba(211, 211, 211, 0.263);
     border: none;
@@ -48,13 +48,13 @@ input {
 p {
     color: grey;
 }
-/* regeltexten */
+
 #smallText {
     font-size: x-small;
     margin: 1rem 10% 0px;
 }
 
-/* div som täcker hela skärmen */
+
 #main {
     align-items: center;
     display: flex;
@@ -64,7 +64,7 @@ p {
     position: relative;
     width: 100vw;
 }
-/* lägger en bakgrundsbild under resten av innehållet i main-diven */
+
 #main::before {
     background-image: url('images/fjarilssim.jpg');
     background-size: cover;
@@ -76,7 +76,7 @@ p {
     right: 0px;
     top: 0px;
 }
-/* header-div */
+
 #header {
     background: white;
     border-bottom: 1px solid black;
@@ -92,7 +92,7 @@ p {
     z-index: 1;
 }
 
-/* login-div som används på både log-in och try-again-elementen */
+
 .logInDiv {
     align-items: center;
     background: white;
@@ -113,7 +113,7 @@ p {
 #tryAgain {
     display: none;
 }
-/* enkel mediaquery för att göra sidan mer responsiv */
+
 @media screen and (max-width: 1024px) {
     .logInDiv {
         height: 800px;
@@ -124,7 +124,7 @@ p {
         width: 10%;
     }
 }
-/* ändrar headern för mobil-visning */
+
 @media screen and (max-width: 600px) {
     #header {
         flex-direction: column;
